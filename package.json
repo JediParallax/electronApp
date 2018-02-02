@@ -4,11 +4,14 @@
   "description": "electron app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
   },
   "author": "jedi",
   "license": "ISC",
   "dependencies": {
-    "electron": "^1.7.12"
+    "electron": "^1.7.12",
+    "monaco-editor": "^0.10.1",
+    "monaco-loader": "^0.8.2"
   }
 }
